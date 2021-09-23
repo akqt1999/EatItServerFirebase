@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_weight="3"
+            android:id="@+id/img_food_image"
+            android:scaleType="fitXY"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:id="@+id/txt_food_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="THAI JDFNH SAODIF"
+            android:textSize="16sp" />
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:id="@+id/txt_food_quatity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quatity: 1"
+            android:textSize="16sp" />
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:id="@+id/txt_food_add_on"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Addon : defaul"
+            android:textSize="16sp" />
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:id="@+id/txt_food_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Size : demdu"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+    
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
